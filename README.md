@@ -20,5 +20,5 @@ docker run -d -p 8000:80 \
 farseer810/eolinker:4.0
 ```
 **其中WEBSITE_NAME不是必填的**    
-**其实也可以用重启eolinker容器的命令开多个实例，再在上层负载均衡**
+**其实也可以用重启eolinker容器的命令开多个实例，再在上层负载均衡**    
 **用nginx负载均衡时记得要在upstream加上ip_hash**
